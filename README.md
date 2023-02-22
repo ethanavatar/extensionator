@@ -5,7 +5,7 @@ Ever come across some files that don't have an extension?
 
 In *nix systems, it doesn't really matter, but in Windows, it can be troublesome when you want to open them with a specific program.
 
-Extensionator will help you add extensions to files automatically. It does require the `file` command to be installed, which usually comes with [git-for-windows](https://github.com/git-for-windows/git) (if you told it to add the bash tools to your path).
+Extensionator will help you add extensions to files automatically based on their mime type. It does require the `file` command to be installed, which usually comes with [git-for-windows](https://github.com/git-for-windows/git) (if you told it to add the bash tools to your path).
 
 ## Installation
 
