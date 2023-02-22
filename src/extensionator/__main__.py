@@ -32,7 +32,7 @@ def rename_dir(dir: str) -> None:
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description="Add extensions to files that don't have an extension based on their mime type.")
+    parser = argparse.ArgumentParser(prog="extensionator", description="Add extensions to files that don't have an extension based on their mime type.")
     subparsers = parser.add_subparsers(dest="command", help="Command to run")
 
     sub = subparsers.add_parser("file", help="Add extensions to a single file")
@@ -40,6 +40,7 @@ if __name__ == "__main__":
 
     sub = subparsers.add_parser("dir", help="Add extensions to all files in a directory")
     sub.add_argument("dir", help="Directory to add extensions to")
+    sub.
 
     args = parser.parse_args()
 
@@ -48,3 +49,6 @@ if __name__ == "__main__":
 
     elif args.command == "dir":
         rename_dir(args.dir)
+
+    else:
+        parser.print_help()
