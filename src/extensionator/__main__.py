@@ -40,7 +40,6 @@ if __name__ == "__main__":
 
     sub = subparsers.add_parser("dir", help="Add extensions to all files in a directory")
     sub.add_argument("dir", help="Directory to add extensions to")
-    sub.
 
     args = parser.parse_args()
 
