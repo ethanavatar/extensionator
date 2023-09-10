@@ -9,7 +9,7 @@ Extensionator will help you add extensions to files automatically based on their
 
 ## Installation
 
-This tool is not published to PyPI yet, so you'll have to install it directly from the repo.
+This tool is not published to PyPI, so you'll have to install it directly from the repo.
 ```bash
 $ pip install git+https://github.com/ethanavatar/extensionator.git
 ```
